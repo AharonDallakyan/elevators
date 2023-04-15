@@ -1,0 +1,54 @@
+building {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.floors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.floor {
+    width: 100px;
+    height: 50px;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.elevators {
+    display: flex;
+    gap: 5px;
+}
+
+.elevator {
+    width: 50px;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.elevator-door {
+    width: 50px;
+    height: 68px;
+    background-color: #333;
+    position: absolute;
+    z-index: 2;
+}
+
+.elevator-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
